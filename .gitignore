@@ -1,6 +1,21 @@
 # Prerequisites
 *.d
 
+# Ignore compiled C++ files
+*.exe
+*.out
+
+# Ignore MATLAB temporary files
+*.asv
+*.autosave
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore CSV if you want (but you can keep it)
+# orbit.csv
+
 # Compiled Object files
 *.slo
 *.lo
